@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px 0;
+}
+
+.logo {
+    font-family: "Abril Fatface", serif;
+    margin-top: 8px;
+    font-size: 28px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    height: 50px;
+}
+
+
+nav>div ul {
+    display: flex;
+}
+
+nav>div ul li {
+    list-style: none;
+    margin: 0 20px;
+    color: #1E1E1E;
+    opacity: .5;
+}
+
+nav>div ul li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.poster {
+    display: flex;
+    background-color: #C1DCDC;
+    width: 85%;
+    height: 26vw;
+    margin: 52px auto;
+    border-radius: 32px;
+}
+
+.poster .poster-left {
+    max-width: 40%;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poster-left .title {
+    font-size: 32px;
+}
+
+.poster-left .desc {
+    font-size: 15px;
+}
+
+.poster-left .info-line {
+    height: 50px;
+}
+
+.poster .heading {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 64px;
+}
+
+.poster .info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 24px 0;
+}
+
+.poster .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.poster input {
+    border: none;
+    padding: 18px;
+    font-size: 16px;
+    flex: 1;
+    border-radius: 12px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+}
+
+.input img {
+    width: 22px;
+    background-color: #C1DCDC;
+    height: 22px;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    margin: 2px 6px 2px 0;
+}
+
+.input img:hover {
+    box-shadow: 3px 3px 10px gray;
+}
+
+.input-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.poster-right #rectangle2 {
+    position: absolute;
+    width: 24%;
+    top: 212px;
+    right: 248px;
+}
+
+.poster-right #plant {
+    position: absolute;
+    top: 131px;
+    width: 22%;
+    right: 232px;
+
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 36vw;
+}
+
+.section .section-info {
+    width: 192px;
+    padding: 12px;
+
+}
+
+.section-info .sec-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.section-info .sec-desc {
+    font-size: 16px;
+    opacity: .6;
+}
+
+.section-info .btn {
+    padding: 10px;
+    border: none;
+    background: #C1DCDC;
+    border-radius: 6px;
+    margin: 14px 0 6px 4px;
+}
+
+.card {
+    width: 210px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .card-info {
+    font-size: 18px;
+}
+
+.card .price {
+    font-size: 14px;
+    opacity: .6;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2 .about {
+    text-align: center;
+    padding: 24px;
+}
+
+.section-2 .about p {
+    opacity: .6;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.about-card {
+    padding: 30px;
+    margin-top: 24px;
+    width: 280px;
+    font-size: 14px;
+    margin-left: 78px;
+}
+
+.about-card p {
+    opacity: .5;
+}
+
+.about-card img {
+    width: 150px;
+}
+
+.section-2 .about h1 {
+    font-size: 32px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 92px;
+}
+
+.section-3 .about h1 {
+    font-size: 32px;
+}
+
+.section-3 .about p {
+    opacity: .6;
+}
+
+.section-3 .explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #C1DCDC;
+    height: 40vw;
+    width: 100%;
+    margin: 52px 0 52px 0;
+}
+
+.section-3 .explore-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.section-3 .explore .explore-card {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    top: -35px;
+}
+
+.section-3 .explore .card-img img {
+    width: 100%;
+}
+
+.section-3 .explore .explore-card-d {
+    width: 250px;
+    text-align: center;
+    position: relative;
+    top: 39px;
+}
+
+.btn-explore {
+    background-color: #fff;
+    width: 98px;
+    padding: 9px 15px 10px 8px;
+    margin: 90px auto;
+    border-radius: 7px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.btn-explore:hover{
+    box-shadow: 1px 1px 8px black;
+}
+
+footer {
+    background-color: #C1DCDC;
+    height: 22vw;
+    width: 100%;
+}
+
+footer .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 260px 0 0 0;
+
+}
+
+.footer .footer-left {
+    margin-top: 32px;
+}
+
+.footer .footer-right {
+    margin-top: 16px;
+}
+
+.footer .footer-logo {
+    font-family: "Abril Fatface", serif;
+    margin-top: 8px;
+    margin-left: -10px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.footer .footer-info {
+    width: 185px;
+    margin: 28px 0;
+    font-size: 18px;
+    opacity: .6;
+    text-align: center;
+}
+
+.media {
+    margin-left: 10px;
+}
+
+
+.media .media-img {
+    width: 26%;
+    margin: 0 4px;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.media .media-img:hover{
+    opacity: 1;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.footer-right>div {
+    cursor: pointer;
+    opacity: .4;
+}
+
+.footer-right>div:hover {
+    opacity: 1;
+}
+
+footer .rights {
+    opacity: .4;
+    margin: 40px 0 0 130px;
+}
